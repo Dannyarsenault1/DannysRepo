@@ -1,6 +1,19 @@
-p { 
-    font-weight:bold; color: red;
-}
 h3 { 
     font-weight:bold; color: blue;
 }
+li {font-style: italic;
+}
+
+h1 {font-family: 'Playfair Display', serif;
+font-weight:bold; color: red;
+}
+h2 {font-family: 'Playfair Display', serif;
+font-weight:bold; color: red;
+}
+div {
+    background-image: url("Images/TomBradyCincoRings.jpg");
+    background-repeat: no-repeat;
+    height:400px;
+    background-position: center;
+}
+
