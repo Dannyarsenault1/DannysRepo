@@ -3,14 +3,17 @@ footer {
 
     font-style: italic;
     }
+h1 {font-family: 'Playfair Display', serif;
+}
 
 header {font-weight:bold; color: darkblue;
 
     font-style: italic;
-    text-decoration: underline}
+    }
 
-    body {
+    nav {
     background-color: rgb(204, 230, 255);
 }
+
 
 
