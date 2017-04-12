@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head><link rel="stylesheet" href="css/bootstrap.css"/>
+<head>
+        <noscript><link rel="stylesheet" href="noscript_fallback.css"></noscript>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
         <link  rel="stylesheet" type="text/css" href="restaurantStyles.css"/>
 <title>The Table Rock</title>
 
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
+         <noscript><h2>Javascript is disabled in your browser.</h2></noscript>
         <body id="TableRockContactUs"/>
 <header><center><h1>The Table Rock</h1></center></header>
 
@@ -38,23 +44,43 @@
                      <input type="radio" name="myRadio" value="Yes" unchecked/>Yes<br/></div>
 
     
- <div><br>Best days to contact you:
+ <div style="margin:10pt">Best days to contact you:
                      <input type="checkbox" name="Mon" value="M" unchecked/>M
-                     <input type="checkbox" name="radio" value="Tues" unchecked/>T</div>
-                     <input type="checkbox" name="radio" value="Wed" unchecked/>W</div>
-                     <input type="checkbox" name="radio" value="Thurs" unchecked/>Th</div>
-                     <input type="checkbox" name="radio" value="Fri" unchecked/>F</br></div>
+                     <input type="checkbox" name="radio" value="Tues" unchecked/>T
+                     <input type="checkbox" name="radio" value="Wed" unchecked/>W
+                     <input type="checkbox" name="radio" value="Thurs" unchecked/>Th
+                     <input type="checkbox" name="radio" value="Fri" unchecked/>F</div>
                      
     <p><button onclick=''>Send request</button></p>
     </form>
-    </table>
-    <center><div class="jumbotron"><h3>Coming Soon: A new location in Portsmouth, NH!</h3></div></center>
+    </table></div>
+
+
+<div id="carouselwrapper">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                                <h3>We're opening a new location!</h3>
+                        </div>
+                        <div class="item">
+                                <h3>We're rolling out our seasonal menu, with special options for this season.</h3>
+                                
+                        </div>
+                        <div class="item">
+                                <h3>The Drink of the Month is SG Special Brew.</h3>
+                                
+                        </div>
+                </div>    
+        </div>
+</div>
+
     <table>
         <hr attribute1=".." attribute2=".."</hr>
+        </table>
 <center><footer>
   <br>123 Main Street, Dover, NH, 03820</br>
    <br>603-123-4567</br>
 </footer></center> 
-</table>
 </body>
 </html>
