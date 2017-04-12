@@ -13,11 +13,13 @@ h2 {font-family: 'Playfair Display', serif;
 font-weight:bold; color: red;
 }
 
-div {
+#BradyCinco {
     background-image: url("Images/TomBradyCincoRings.jpg");
     background-repeat: no-repeat;
-    height:400px;
+    height:480px;
+    width:600px;
     background-position: center;
+    margin:0 auto;
 }
 
 a {font-family: 'Playfair Display', serif;
@@ -33,7 +35,7 @@ display:inline;
 }
 
 td {font-style: italic;
-background-color: lightsteelblue
 }
+
 
 

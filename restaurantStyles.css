@@ -35,3 +35,9 @@ th {text-align: left}
   margin-right: auto;
   text-align:center;
 }
+
+table-responsive {
+
+  overflow-x: auto;
+
+}
