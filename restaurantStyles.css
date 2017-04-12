@@ -6,6 +6,10 @@ footer {
 h1 {font-family: 'Playfair Display', serif;
 }
 
+h3 {font-family: 'Playfair Display', serif;
+  color: red;
+}
+
 header { color: darkblue;
 
     font-style: italic;
