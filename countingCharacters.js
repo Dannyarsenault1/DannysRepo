@@ -20,12 +20,21 @@ function countingCharacters2(stringToCount, characterToFind){
                   characterCount);
 }
 
-function countingCharacters3(str, search){
+function countingCharacters3(str, search){    
     var count = 0;
-  var numChars = search.length; 
+    var numChars = search.length;
+    
     var lastIndex = str.length - numChars;
-            count++;         
-        }     
+    for (var index = 0; index <= lastIndex; index++){
+       var current = str.substring(index, index + numChars);
+        if (current == search){            
+            count++;
+        }
+    }
     console.log("String to search in: " + str);
     console.log("Character to find: " + search);
-    console.log("Number of times the character appears: " + count);
+    console.log("Number of times the character appears: " + count); 
+}
+
+
+    
